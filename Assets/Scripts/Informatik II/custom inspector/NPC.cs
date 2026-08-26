@@ -325,8 +325,8 @@ public class NPC : MonoBehaviour
     }
     public void ShrinetypeChilder()
     {
-        GameObject objectpool = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Scripts/NpcBehavior/Shrine/shrinePrefabs/objectpool.prefab");
-        GameObject rockManager = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Scripts/NpcBehavior/Shrine/shrinePrefabs/rockmanager.prefab");
+        GameObject objectpool = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Scripts/other/NPCStateMachine/Shrine/shrinePrefabs/objectpool.prefab");
+        GameObject rockManager = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Scripts/other/NPCStateMachine/Shrine/shrinePrefabs/rockmanager.prefab");
 
      if (objectpool != null)
        {
